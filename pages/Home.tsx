@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,12 +6,12 @@ const Home: React.FC = () => {
     <div className="animate-fade-in">
       {/* Hero Section */}
       <section 
-        className="relative bg-cover bg-center h-[60vh] flex items-center justify-center text-white"
-        style={{backgroundImage: `url(https://picsum.photos/1600/900?grayscale&blur=2)`}}
+        className="relative bg-cover bg-center h-[calc(100vh-5rem)] md:h-[60vh] flex items-center justify-center text-white"
+        style={{backgroundImage: `url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop)`}}
       >
-        <div className="absolute inset-0 bg-slate-900/60"></div>
+        <div className="absolute inset-0 bg-slate-900/70"></div>
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
             Empowering Leaders. <span className="text-amber-400">Building Futures.</span>
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-300">
@@ -40,7 +39,7 @@ const Home: React.FC = () => {
       {/* Quote Section */}
       <section className="py-16 sm:py-24 bg-slate-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl">
-          <blockquote className="text-2xl md:text-3xl italic text-slate-300 border-l-4 border-amber-400 pl-6">
+          <blockquote className="text-xl sm:text-2xl md:text-3xl italic text-slate-300 border-l-4 border-amber-400 pl-6">
             <p>"The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things."</p>
           </blockquote>
           <cite className="block text-right mt-4 text-slate-400 not-italic">— Ronald Reagan</cite>
