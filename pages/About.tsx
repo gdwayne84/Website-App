@@ -45,14 +45,16 @@ const About: React.FC = () => {
             <div className="text-center">
               <h2 className="text-3xl font-bold text-white mb-6">Experience i-Elite</h2>
               <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto bg-slate-900 rounded-lg shadow-lg flex items-center justify-center">
-                {
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/XSCzWFunx38?si=NGQBF84jz6pMGRPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                }
-                <div className="text-center p-8">
-                    <svg className="mx-auto h-20 w-20 text-slate-500" fill="currentColor" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg>
-                    <p className="mt-4 text-slate-400 text-lg">Our Story: A video introduction to the i-Elite journey is coming soon.</p>
-                </div>
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/XSCzWFunx38?si=n5yvyR8voLOg0c2d"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                 >
+                 </iframe>
               </div>
             </div>
           </div>
