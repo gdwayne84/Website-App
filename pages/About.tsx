@@ -44,18 +44,19 @@ const About: React.FC = () => {
             {/* Video Section */}
             <div className="text-center">
               <h2 className="text-3xl font-bold text-white mb-6">Experience i-Elite</h2>
-              <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto bg-slate-900 rounded-lg shadow-lg flex items-center justify-center">
-                  <iframe
-                    className="w-full" height="500px"
-                    src="https://www.youtube.com/embed/XSCzWFunx38?si=n5yvyR8voLOg0c2d"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                 >
-                 </iframe>
+
+              <div className="relative aspect-w-16 aspect-h-9 max-w-4xl mx-auto bg-slate-900 rounded-lg shadow-lg overflow-hidden">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/XSCzWFunx38?si=n5yvyR8voLOg0c2d"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </div>
+
             </div>
           </div>
         </div>
