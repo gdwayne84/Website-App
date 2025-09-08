@@ -45,7 +45,7 @@ const About: React.FC = () => {
             <div className="text-center">
               <h2 className="text-3xl font-bold text-white mb-6">Experience i-Elite</h2>
 
-              <div className="relative aspect-w-16 aspect-h-9 max-w-4xl mx-auto bg-slate-900 rounded-lg shadow-lg overflow-hidden">
+              <div className="relative aspect-video max-w-4xl mx-auto bg-slate-900 rounded-lg shadow-lg overflow-hidden">
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube.com/embed/XSCzWFunx38?si=n5yvyR8voLOg0c2d"
