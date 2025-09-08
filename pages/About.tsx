@@ -46,7 +46,7 @@ const About: React.FC = () => {
               <h2 className="text-3xl font-bold text-white mb-6">Experience i-Elite</h2>
               <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto bg-slate-900 rounded-lg shadow-lg flex items-center justify-center">
                   <iframe
-                    className="w-full h-full"
+                    className="w-full" height="500px"
                     src="https://www.youtube.com/embed/XSCzWFunx38?si=n5yvyR8voLOg0c2d"
                     title="YouTube video player"
                     frameBorder="0"
