@@ -1,12 +1,9 @@
-name: Deploy Vite App to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Run this workflow whenever you push to main
-
-permissions:
-  contents: write
+      - main   # Runs when you push to main branch
 
 jobs:
   build-and-deploy:
@@ -16,10 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
