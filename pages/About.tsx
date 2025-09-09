@@ -15,10 +15,11 @@ const About: React.FC = () => {
           </header>
 
           <div className="space-y-16">
-            {/* Mission Section */}
+
+            {/* 1st Section */}
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
               <div className="md:w-1/2">
-                <h2 className="text-3xl font-bold text-amber-400 mb-4">I. System Core Philosophy:</h2>
+                <h2 className="text-3xl font-bold text-amber-400 mb-4"><span className="text-white">I.</span> System Core Philosophy:</h2>
                 <p className="text-slate-300 leading-relaxed">
                 The i-Elite System is founded on the principle of <strong>"A Business of Love, Benefiting Others and Oneself."</strong> It is dedicated to building a Network Marketing ecosystem platform rooted in humanitarian care and driven by professional growth. We believe that true success stems from the unity of personal and social value, empowering every partner to achieve the dual goals of wealth growth and spiritual elevation.
                 </p>
@@ -28,10 +29,10 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            {/* Vision Section */}
+            {/* 2nd Section */}
             <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
               <div className="md:w-1/2">
-                <h2 className="text-3xl font-bold text-amber-400 mb-4">II. System Core Values</h2>
+                <h2 className="text-3xl font-bold text-amber-400 mb-4"><span className="text-white">II.</span> System Core Values</h2>
                 <p className="text-slate-300 leading-relaxed">
                 1. <strong>Industry Benchmark</strong> – Building an outstanding brand in the Network Marketing field, leading the industry's standardized development.<br />
                 2. <strong>Global Vision</strong> – Cultivating world-class Network Marketing teams, empowering members to step onto the international stage.<br />
@@ -42,6 +43,22 @@ const About: React.FC = () => {
               </div>
               <div className="md:w-1/2">
                 <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=600&auto=format&fit=crop" alt="Global network" className="rounded-lg shadow-lg" />
+              </div>
+            </div>
+
+            {/* 3rd Section */}
+            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+              <div className="md:w-1/2">
+                <h2 className="text-3xl font-bold text-amber-400 mb-4"><span className="text-white">III.</span> System Structure and Elite Team</h2>
+                <p className="text-slate-300 leading-relaxed">
+                • <strong>Founding Team:</strong> Leading the system's strategic direction with foresight and insight.
+                • <strong>Chief Trainer:</strong> Developing a scientific training system, incubating top talent in the industry.
+                • <strong>Gold Lecturer Team:</strong> Growth mentors combining practical experience with theoretical knowledge.
+                • <strong>Strategy Committee:</strong> A think tank composed of market leaders, driving the system's evolution.
+                </p>
+              </div>
+              <div className="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop" alt="Team collaborating" className="rounded-lg shadow-lg" />
               </div>
             </div>
 
