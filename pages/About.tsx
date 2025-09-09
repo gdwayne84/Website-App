@@ -33,10 +33,10 @@ const About: React.FC = () => {
               <div className="md:w-1/2">
                 <h2 className="text-3xl font-bold text-amber-400 mb-4">II. System Core Values</h2>
                 <p className="text-slate-300 leading-relaxed">
-                1. <strong>Industry Benchmark</strong> – Building an outstanding brand in the Network Marketing field, leading the industry's standardized development.<br>
-                2. <strong>Global Vision</strong> – Cultivating world-class Network Marketing teams, empowering members to step onto the international stage.<br>
-                3. <strong>Wealth Code</strong> – Replicating actionable millionaire success models, enabling ordinary people to achieve the extraordinary.<br>
-                4. <strong>Mindset Upgrade</strong> – Building a positive mindset and resilient attitude, breaking through self-imposed limitations.<br>
+                1. <strong>Industry Benchmark</strong> – Building an outstanding brand in the Network Marketing field, leading the industry's standardized development.<br />
+                2. <strong>Global Vision</strong> – Cultivating world-class Network Marketing teams, empowering members to step onto the international stage.<br />
+                3. <strong>Wealth Code</strong> – Replicating actionable millionaire success models, enabling ordinary people to achieve the extraordinary.<br />
+                4. <strong>Mindset Upgrade</strong> – Building a positive mindset and resilient attitude, breaking through self-imposed limitations.<br />
                 5. <strong>Quality Life</strong> – Reshaping a holistic lifestyle encompassing health, wealth, and freedom.
                 </p>
               </div>
