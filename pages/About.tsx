@@ -10,7 +10,7 @@ const About: React.FC = () => {
               What is <span className="text-amber-400">i-Elite?</span>
             </h1>
             <p className="mt-4 text-lg text-slate-400">
-              A community dedicated to growth, leadership, and shared success.
+              A community dedicated to growth, leadership, and shared success — a network marketing ecosystem designed to empower. Together, we achieve the extraordinary.
             </p>
           </header>
 
@@ -18,9 +18,9 @@ const About: React.FC = () => {
             {/* Mission Section */}
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
               <div className="md:w-1/2">
-                <h2 className="text-3xl font-bold text-amber-400 mb-4">Our Mission</h2>
+                <h2 className="text-3xl font-bold text-amber-400 mb-4">I. System Core Philosophy:</h2>
                 <p className="text-slate-300 leading-relaxed">
-                  Our mission is to empower individuals to achieve financial independence and personal growth through a supportive, collaborative network. We provide the tools, training, and mentorship necessary for our leaders to build thriving businesses and inspire their teams to reach new heights.
+                The i-Elite System is founded on the principle of <strong>"A Business of Love, Benefiting Others and Oneself."</strong> It is dedicated to building a Network Marketing ecosystem platform rooted in humanitarian care and driven by professional growth. We believe that true success stems from the unity of personal and social value, empowering every partner to achieve the dual goals of wealth growth and spiritual elevation.
                 </p>
               </div>
               <div className="md:w-1/2">
@@ -31,9 +31,13 @@ const About: React.FC = () => {
             {/* Vision Section */}
             <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
               <div className="md:w-1/2">
-                <h2 className="text-3xl font-bold text-amber-400 mb-4">Our Vision</h2>
+                <h2 className="text-3xl font-bold text-amber-400 mb-4">II. System Core Values</h2>
                 <p className="text-slate-300 leading-relaxed">
-                  We envision a global community of entrepreneurs who are not only successful in their own right but are also committed to lifting others up. We strive to be the gold standard in the industry, known for our integrity, innovation, and the genuine success stories of our members.
+                1. <strong>Industry Benchmark</strong> – Building an outstanding brand in the Network Marketing field, leading the industry's standardized development.<br>
+                2. <strong>Global Vision</strong> – Cultivating world-class Network Marketing teams, empowering members to step onto the international stage.<br>
+                3. <strong>Wealth Code</strong> – Replicating actionable millionaire success models, enabling ordinary people to achieve the extraordinary.<br>
+                4. <strong>Mindset Upgrade</strong> – Building a positive mindset and resilient attitude, breaking through self-imposed limitations.<br>
+                5. <strong>Quality Life</strong> – Reshaping a holistic lifestyle encompassing health, wealth, and freedom.
                 </p>
               </div>
               <div className="md:w-1/2">
