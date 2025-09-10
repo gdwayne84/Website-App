@@ -58,7 +58,7 @@ const About: React.FC = () => {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop" alt="Team collaborating" className="rounded-lg shadow-lg" />
+                <img src="https://images.unsplash.com/photo-1557804506-d8017c1e4856?q=80&w=2013&auto=format&fit=crop" alt="Team collaborating" className="rounded-lg shadow-lg" />
               </div>
             </div>
 
